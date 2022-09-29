@@ -4,7 +4,6 @@ import Buttons from './Button'
 function ButtonPage() {
   return (
     <div className="Button_background">
-      
       <div className="Backdrop">
         </div>
         <div className="Title">
