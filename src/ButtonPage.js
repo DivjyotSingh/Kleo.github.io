@@ -4,7 +4,12 @@ import Buttons from './Button'
 function ButtonPage() {
   return (
     <div className="Button_background">
-        <div>KLEO</div>
+      
+      <div className="Backdrop">
+        </div>
+        <div className="Title">
+          <img src={require('./Assets/Kleo-logo.png')}></img>
+        </div>
         <Buttons/>
     </div>
   )
